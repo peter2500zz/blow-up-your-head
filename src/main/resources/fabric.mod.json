@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "blow-up-your-head",
+  "version": "${version}",
+  "name": "Blow up your head!",
+  "description": "This mod allows players to drop their heads when they are blown up by a charged creeper.",
+  "authors": [
+    "peter2500zz"
+  ],
+  "contact": {
+    "sources": "https://github.com/peter2500zz/blow-up-your-head"
+  },
+  "license": "MIT",
+  "icon": "assets/blow-up-your-head/icon.png",
+  "environment": "*",
+  "mixins": [
+    "blow-up-your-head.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
