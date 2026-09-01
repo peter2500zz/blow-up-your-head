@@ -18,7 +18,13 @@ public abstract class AnvilMenuMixin {
     @Shadow
     private @Nullable String itemName;
 
-    @Inject(at = @At("TAIL"), method = "createResult")
+    @Inject(
+            at = @At(
+                    value = "INVOKE",
+                    target = "Lnet/minecraft/world/inventory/AnvilMenu;broadcastChanges()V"
+            ),
+            method = "createResult"
+    )
     private void renamePlayerHead(CallbackInfo ci) {
         // 获取铁砧的产物
         ResultContainer resultSlots = ((ItemCombinerMenuAccessor) this).getResultSlots();
