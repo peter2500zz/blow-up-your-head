@@ -2,8 +2,8 @@
   <h1>Blow up your head!</h1>
 
   <p>
-    <a href="https://www.minecraft.net/"><img src="https://img.shields.io/badge/Minecraft-26.2-brightgreen" alt="Minecraft: 26.2"></a>
-    <a href="https://fabricmc.net/"><img src="https://img.shields.io/badge/Fabric%20Loader-0.19.3+-blue" alt="Fabric Loader: 0.19.3+"></a>
+    <a href="https://www.minecraft.net/"><img src="https://img.shields.io/badge/Minecraft-26.3-brightgreen" alt="Minecraft: 26.3"></a>
+    <a href="https://fabricmc.net/"><img src="https://img.shields.io/badge/Fabric%20Loader-0.19.5+-blue" alt="Fabric Loader: 0.19.5+"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   </p>
 
